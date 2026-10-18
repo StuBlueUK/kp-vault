@@ -1,0 +1,23 @@
+[package]
+name = "kp-vault"
+version = "0.1.0"
+edition = "2021"
+description = "Encrypted local vault for passwords, notes and email records"
+
+[dependencies]
+eframe = { version = "0.37", features = ["glow"] }
+egui = "0.37"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+argon2 = "0.5"
+chacha20poly1305 = "0.10"
+rand = "0.8"
+zeroize = { version = "1", features = ["derive"] }
+dirs = "5"
+anyhow = "1"
+ksni = { version = "0.3", features = ["blocking"] }
+image = { version = "0.25", default-features = false, features = ["png"] }
+rfd = { version = "0.15", default-features = false, features = ["xdg-portal", "tokio"] }
+
+[profile.release]
+opt-level = 3

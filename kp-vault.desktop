@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=KP Vault
+GenericName=Password & Notes Vault
+Comment=Encrypted local vault for passwords, notes and email records
+Exec=kp-vault
+Icon=kp-vault
+Terminal=false
+Categories=Utility;Security;
+Keywords=password;vault;notes;encrypted;secret;
+StartupNotify=true
+StartupWMClass=kp-vault

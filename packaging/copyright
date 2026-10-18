@@ -1,0 +1,9 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: kp-vault
+Source: local
+
+Files: *
+Copyright: 2026 KP Vault
+License: All-Rights-Reserved
+ This package is distributed without a public license. All rights reserved
+ by the copyright holder.
